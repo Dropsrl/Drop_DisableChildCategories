@@ -1,0 +1,24 @@
+{
+    "name": "drop/module-disablechildcategories",
+    "description": "A Magento 2 module that disables child categories when parent category is disabled on admin",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "c.pieroni@drop.it",
+            "name": "Cristiano Pieroni"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "~7.0.0|~7.1.0|~7.2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Drop\\DisableChildCategories\\": ""
+        }
+    }
+}
